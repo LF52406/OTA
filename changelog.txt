@@ -1,0 +1,17 @@
+Changelog — April 15, 2026
+
+### Audio & Bluetooth
+- Hardware Offload: Implemented full hardware support for LHDC (V3–V5) via DSP — reduced latency and improved power efficiency
+- HyperOS Blobs: Integrated proprietary LHDC libraries from HyperOS dump
+- Audio Routing: Updated audio routing graphs with LHDC support (playback and microphone)
+- System Stability: Adapted for Android 16 with relaxed ELF checks for vendor libraries
+- Sync Configs: Synchronized Bluetooth flags for proper toggle behavior
+
+### UDFPS & Fingerprint
+- UDFPS Animation: Optimized fingerprint illumination for smoother and more responsive feedback
+- FP Cleanup: Enabled automatic cleanup of unused fingerprint templates
+- Device Configs: Fixed XML configuration issues
+
+### System & Security
+- Custom Release Keys: Signed the build with private custom keys instead of public test-keys for enhanced security and system integrity
+- OTA Updates: Added full support for over-the-air updates (future updates will be available via Settings)
