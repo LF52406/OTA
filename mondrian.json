@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1713139200,
+      "filename": "ИМЯ_ТВОЕГО_АРХИВА.zip",
+      "id": "MD5_ХЭШ_ТВОЕГО_АРХИВА",
+      "romtype": "unofficial",
+      "size": 2147483648,
+      "url": "ПРЯМАЯ_ССЫЛКА_НА_СКАЧИВАНИЕ_SOURCEFORGE",
+      "version": "14.0"
+    }
+  ]
+}
